@@ -14,7 +14,7 @@ window.PORTFOLIO_DATA = {
       "I Paint with Thoughts!",
       "Internal Review Only."
     ],
-    bio: "I write stories that live beyond the screen.\nShaping emotions into frames, and frames into worlds.",
+    bio: "I write stories that live beyond the screen. Shaping emotions into frames, and frames into worlds.",
     email: "sumanpaik.author@gmail.com",
     avatar: "assets/profile.jpg", // Optional: "assets/profile.jpg"
     socials: [
