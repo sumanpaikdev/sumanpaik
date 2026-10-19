@@ -31,6 +31,22 @@ window.PORTFOLIO_DATA = {
   */
   projects: [
     {
+      slug: "avases",
+      title: "Avases (3141CE)",
+      type: "Feature Film",
+      year: "",
+      status: "",
+      copyright: "",
+      poster: "",
+      logline: "",
+      genre: "",
+      themes: "",
+      treatment: "",
+      screenplay: "",
+      copyrightcertificate: "",
+      synopsis: ""
+    },
+    {
       slug: "ostrich-the-freedom-trap",
       title: "Ostrich: The Freedom Trap",
       type: "Feature Film",
