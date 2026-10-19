@@ -48,11 +48,9 @@
         ${section("GENRE", project.genre)}
         ${section("THEMES", project.themes)}
         ${section("SYNOPSIS", project.synopsis, "synopsis-section")}
-        <div class="pdf-download">
         ${project.treatment ? `<div class="screenplay-download"> <a class="download-button" href="${escapeAttr(project.treatment)}" download>  ↓ Download Treatment </a> </div>` : ""}
         ${project.screenplay ? `<div class="screenplay-download"> <a class="download-button" href="${escapeAttr(project.screenplay)}" download>  ↓ Download Screenplay </a> </div>` : ""}
         ${project.copyrightcertificate ? `<div class="screenplay-download"> <a class="download-button" href="${escapeAttr(project.copyrightcertificate)}" download>  ↓ Copyright Certificate </a> </div>` : ""}
-        </div>
       </div>
     </div>
     <section class="project-contact">
