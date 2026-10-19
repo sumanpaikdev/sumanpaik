@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Official writing portfolio of Suman Paik, film writer from India.">
+  <meta name="theme-color" content="#151515">
+  <title>Suman Paik — Film Writer</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header wrap">
+    <div class="header-message" aria-live="polite">
+      <span id="rotatingMessage">Internal Review Only.</span>
+    </div>
+    <div class="header-tools">
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch to light theme" title="Switch theme">
+        <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="wrap home-main">
+    <section class="intro">
+      <div class="identity">
+        <div class="avatar" id="profileAvatar" aria-hidden="true">SP</div>
+        <div>
+          <h1 id="writerName">Suman Paik</h1>
+          <p class="eyebrow">SCREENWRITER · INDIA</p>
+          <!-- <p class="muted role" id="writerRole">Screenwriter</p> -->
+        </div>
+      </div>
+      <p class="manifesto" id="writerStatement">I write stories that live beyond the screen.<br>Shaping emotions into frames, and frames into worlds.</p>
+      <p class="bio muted" id="writerBio"></p>
+    </section>
+
+    <section class="projects-section" aria-labelledby="projectsTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">WORK</p>
+          <h2 id="projectsTitle">Film Story &amp; Screenplay</h2>
+        </div>
+        <span class="project-count" id="projectCount">03 PROJECTS</span>
+      </div>
+      <div class="project-list" id="projectList"></div>
+    </section>
+
+    <section class="connect" id="connect">
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h2>Connect</h2>
+      <p class="muted">For professional enquiries, contact me at <a id="emailLink" href="mailto:sumanpaik.author@gmail.com">sumanpaik.author@gmail.com</a></p>
+      <div class="social-links" id="socialLinks"></div>
+    </section>
+  </main>
+
+  <footer class="wrap site-footer">
+    <span>© <span id="year"></span> <span id="footerName">Suman Paik</span></span>
+    <span>Stories made to be seen.</span>
+  </footer>
+</body>
+</html>
