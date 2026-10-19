@@ -16,7 +16,7 @@ To add a film, copy one project object inside the `projects` array, give it a un
 Create an `assets` folder and add your images. Then set paths in `data.js`, for example:
 
 - `avatar: "assets/suman-paik.jpg"`
-- `poster: "assets/danavaa-poster.jpg"`
+- `poster: "assets/poster.jpg"`
 
 Use JPG, PNG, or WebP. Keep poster images reasonably optimized for the web.
 
@@ -32,7 +32,7 @@ Open `index.html` in a browser. For the most reliable local preview, use a simpl
 4. Under build and deployment, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
 5. Wait for GitHub Pages to publish the site. The address will appear in Pages settings.
 
-The site uses a query-string project URL (`film.html?slug=danavaa`) so it works on GitHub Pages without server-side routing.
+The site uses a query-string project URL (`film.html?slug=the-father-i-love-to-fear`) so it works on GitHub Pages without server-side routing.
 
 ## Important
 
