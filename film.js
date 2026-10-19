@@ -38,7 +38,7 @@
         <p class="eyebrow">${escapeHTML(project.type || "FILM PROJECT")}${project.year ? " · " + escapeHTML(project.year) : ""}</p>
         <h1>${escapeHTML(project.title)}</h1>
         ${project.status ? `<p class="status-line">${escapeHTML(project.status)}</p>` : ""}
-        ${project.copyright ? `<p class="copyright-line"> Copyright Office (India) | ${escapeHTML(project.copyright)}</p>` : ""}
+        ${project.copyright ? `<p class="copyright-line"> Copyright Office | ${escapeHTML(project.copyright)}</p>` : ""}
       </div>
     </div>
     <div class="film-layout">
@@ -48,9 +48,9 @@
         ${section("GENRE", project.genre)}
         ${section("THEMES", project.themes)}
         ${section("SYNOPSIS", project.synopsis, "synopsis-section")}
-        ${project.treatment ? `<div class="screenplay-download"> <a class="download-button" href="${escapeAttr(project.treatment)}" download>  ↓ Download Film Treatment (PDF) </a> </div>` : ""}
-        ${project.screenplay ? `<div class="screenplay-download"> <a class="download-button" href="${escapeAttr(project.screenplay)}" download>  ↓ Download Film Screenplay (PDF) </a> </div>` : ""}
-        ${project.copyrightcertificate ? `<div class="screenplay-download"> <a class="download-button" href="${escapeAttr(project.copyrightcertificate)}" download>  ↓ Download Copyright Certificate (PDF) </a> </div>` : ""}
+        ${project.treatment ? `<div class="screenplay-download"> <a class="download-button" href="${escapeAttr(project.treatment)}" download>  ↓ Download Film Treatment </a> </div>` : ""}
+        ${project.screenplay ? `<div class="screenplay-download"> <a class="download-button" href="${escapeAttr(project.screenplay)}" download>  ↓ Download Film Screenplay </a> </div>` : ""}
+        ${project.copyrightcertificate ? `<div class="screenplay-download"> <a class="download-button" href="${escapeAttr(project.copyrightcertificate)}" download>  ↓ Download Copyright Certificate </a> </div>` : ""}
       </div>
     </div>
     <section class="project-contact">

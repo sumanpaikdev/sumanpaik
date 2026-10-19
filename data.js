@@ -18,7 +18,7 @@ window.PORTFOLIO_DATA = {
     email: "sumanpaik.author@gmail.com",
     avatar: "assets/profile.jpg", // Optional: "assets/profile.jpg"
     socials: [
-      { label: "GitHub", url: "https://github.com/sumanpaikdev" },
+      // { label: "GitHub", url: "https://github.com/username" },
       { label: "Twitter / X", url: "https://x.com/isumanpaik" }
     ]
   },
