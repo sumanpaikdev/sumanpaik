@@ -61,6 +61,7 @@ button:focus-visible {
 }
 
 .site-header {
+  user-select: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -941,7 +942,7 @@ h2 {
   height: 25px;
   fill: none;
   stroke: currentColor;
-  stroke-width: 1.3;
+  stroke-width: 1.6;
 }
 
 .journey-placeholder-label {
@@ -1030,22 +1031,32 @@ h2 {
 }
 
 .lightbox-close {
-  top: 20px;
-  right: 22px;
-  width: 42px;
-  height: 42px;
+  display: flex;
+  padding: 6px 14px;
+  border-radius: full;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
   font-size: 29px;
   font-weight: 300;
-  line-height: 1;
+  user-select: none;
+  top: 20px;
+  right: 22px;
+  
 }
 
 .lightbox-arrow {
-  top: 50%;
-  width: 44px;
-  height: 44px;
-  transform: translateY(-50%);
-  font-size: 30px;
+  display: flex;
+  padding: 6px 18px;
+  border-radius: full;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+  font-size: 29px;
   font-weight: 300;
+  user-select: none;
+  transform: translateY(-50%);
+  
 }
 
 .lightbox-prev {
@@ -1146,14 +1157,18 @@ body.lightbox-open {
   .lightbox-arrow {
     width: 36px;
     height: 36px;
+    font-size: 28px;
   }
 
   .lightbox-prev {
     left: 10px;
+    bottom: 10px;
   }
 
   .lightbox-next {
     right: 10px;
+    bottom: 10px;
+
   }
 }
 
