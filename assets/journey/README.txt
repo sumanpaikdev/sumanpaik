@@ -1,0 +1,1 @@
+Add your own JPG, PNG, or WebP photographs to this folder. Reference each image in journey-data.js, for example: image: "assets/journey/darjeeling.jpg". Keep image files reasonably optimized for fast loading.

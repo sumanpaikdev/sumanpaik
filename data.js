@@ -6,7 +6,7 @@
 window.PORTFOLIO_DATA = {
   profile: {
     name: "Suman Paik",
-    role: "Feature Film | Web Series",
+    // role: "Feature Film | Web Series",
     location: "India",
     statement: "",
     navbarMessages: [
@@ -69,7 +69,7 @@ window.PORTFOLIO_DATA = {
       year: "27/07/2026",
       status: "",
       copyright: "Diary Number : LD-35174/2026-CO",
-      poster: "assets/danavaa.jpg",
+      poster: "assets/poster/danavaa.jpg",
       logline: "Raised by monks on Earth, a boy born from an ancient cosmic curse discovers he belongs to a species destined to replace humanity—and must destroy his own kind to save the people he has spent his life protecting.",
       genre: "Epic Action-Adventure, Super-Hero, Original Sci-Fi.",
       themes: "In order to carry the weight of guilt, you must transform pain into purpose.",
@@ -85,7 +85,7 @@ window.PORTFOLIO_DATA = {
       year: "26/12/2024",
       status: "",
       copyright: "Registration Number: LD-20250179284",
-      poster: "assets/thefatherilovetofear.jpg",
+      poster: "assets/poster/thefatherilovetofear.jpg",
       logline: "A man who escaped a violent past is forced back into it when his adopted daughter is targeted.",
       genre: "Action Thriller, Crime, Romantic Drama",
       themes: "He escaped violence—until protecting his love demanded it.",

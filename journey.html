@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="A personal photo journal and collection of places, moments, and reflections from Suman Paik's writer's journey.">
+  <meta name="theme-color" content="#151515">
+  <title>A Writer’s Journey — Suman Paik</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="data.js" defer></script>
+  <script src="journey-data.js" defer></script>
+  <script src="journey.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header wrap">
+    <div class="header-message" aria-live="polite"><span id="rotatingMessage">Internal Review Only.</span></div>
+
+    <div class="header-tools">
+      <!-- Home -->
+      <a class="journey-link" href="index.html" aria-label="Home" title="Home">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m3 10 9-7 9 7"></path>
+          <path d="M5 9v12h14V9"></path>
+          <path d="M9 21v-7h6v7"></path>
+        </svg>
+      </a>
+
+      <!-- Album -->
+      <a class="journey-link" href="journey.html" aria-label="Photo album" title="Photo album" aria-current="page">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+          <circle cx="8.5" cy="8.5" r="1.5"></circle>
+          <path d="m21 15-5-5L5 21"></path>
+        </svg>
+      </a>
+
+      <!-- Theme -->
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch theme" title="Switch theme">
+        <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path
+            d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42">
+          </path>
+        </svg>
+      </button>
+    </div>
+
+  </header>
+  <main class="wrap journey-main">
+    <a class="text-link return-link" href="index.html">← Back to portfolio</a>
+    <section class="journey-intro">
+      <p class="eyebrow">PERSONAL ARCHIVE</p>
+      <h1>A Writer’s Journey</h1>
+      <p class="journey-lede" id="journeyIntro">Places I've been. Moments I've kept. Stories that stayed with me.</p>
+    </section>
+    <section class="journey-timeline" id="journeyTimeline" aria-label="Writer’s journey timeline">
+      <div class="journey-empty">
+        <h2>Collecting moments.</h2>
+        <p>Your journey timeline will appear here. Add your photographs, locations, dates, titles, and reflections in
+          <code>journey-data.js</code>.</p>
+      </div>
+    </section>
+  </main>
+  <div class="photo-lightbox" id="photoLightbox" aria-hidden="true" role="dialog" aria-modal="true"
+    aria-label="Photograph viewer">
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close photograph viewer">×</button>
+    <button class="lightbox-arrow lightbox-prev" id="lightboxPrev" type="button"
+      aria-label="Previous photograph">‹</button>
+    <figure class="lightbox-figure">
+      <img id="lightboxImage" src="" alt="">
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+    <button class="lightbox-arrow lightbox-next" id="lightboxNext" type="button" aria-label="Next photograph">›</button>
+    <div class="lightbox-count" id="lightboxCount"></div>
+  </div>
+  <footer class="wrap site-footer">
+    <span>© <span id="year"></span> <span id="footerName">Suman Paik</span></span>
+    <a href="index.html#connect">Contact</a>
+  </footer>
+</body>
+
+</html>
