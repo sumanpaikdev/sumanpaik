@@ -1,4 +1,7 @@
 /* film poster aspect ration is 2 /3 ; photography film poster is 3/4 vertical;  */
+* {
+    -webkit-tap-highlight-color: transparent;
+}
 
 :root {
   color-scheme: dark;
