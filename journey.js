@@ -103,7 +103,7 @@ function normalizePhotos(entry) {
 function openLightbox(entries, entryIndex, photoIndex) {
   const modal = document.getElementById("photoLightbox");
   const image = document.getElementById("lightboxImage");
-  const caption = document.getElementById("lightboxCaption");
+  // const caption = document.getElementById("lightboxCaption");
   const count = document.getElementById("lightboxCount");
   const close = document.getElementById("lightboxClose");
   const prev = document.getElementById("lightboxPrev");
@@ -115,7 +115,7 @@ function openLightbox(entries, entryIndex, photoIndex) {
     const photo = photos[current];
     image.src = photo.src;
     image.alt = photo.alt || entries[entryIndex].title || "Journey photograph";
-    caption.textContent = [entries[entryIndex].title, entries[entryIndex].location, formatDate(entries[entryIndex].date)].filter(Boolean).join(" · ");
+    // caption.textContent = [entries[entryIndex].title, entries[entryIndex].location, formatDate(entries[entryIndex].date)].filter(Boolean).join(" · ");
     count.textContent = `${current + 1} / ${photos.length}`;
     prev.hidden = photos.length < 2;
     next.hidden = photos.length < 2;
